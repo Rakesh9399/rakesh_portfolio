@@ -1,0 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap'); */
+
+@import "tailwindcss";
+
+:root {
+    font-family: "Inter", sans-serif;
+    background: #000000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
