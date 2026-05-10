@@ -20,13 +20,13 @@ const iconVariants = (duration) => ({
 
 function Technologies() {
   return (
-    <div className="pb-24">
+    <div className="pb-10">
         <motion.h2 
             whileInView={{opacity: 1, y: 0}}
             initial={{ opacity: 0, y: 100 }}
             viewport={{ once: true }}
             transition={{duration: 1.5}}
-            className="my-20 bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-center text-4xl font-bold text-transparent">
+            className="my-10 bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-center text-4xl font-bold text-transparent">
             Technologies
         </motion.h2>
         <motion.div 

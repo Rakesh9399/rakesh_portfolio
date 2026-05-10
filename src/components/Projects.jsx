@@ -57,7 +57,7 @@ function Projects() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
 
-                className="my-20 bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-center text-4xl font-bold text-transparent"
+                className="my-10 bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-center text-4xl font-bold text-transparent"
             >
                 Projects
             </motion.h2>

@@ -13,7 +13,7 @@ function FeaturedProject() {
 
   return (
 
-    <section className="pb-24">
+    <section className="pb-10">
 
       {/* Heading */}
       <motion.h2

@@ -27,7 +27,7 @@ const childVariants = {
 
 function Hero() {
     return (
-        <section id="home" className='pb-4 lg:mb-36'>
+        <section id="home" className='pb-4 lg:mb-10'>
             <div className='flex flex-col-reverse lg:flex-row-reverse'>
                 <div className='mb-10 flex w-full justify-center lg:mb-0 lg:w-1/2'>
                     <div className='flex justify-center lg:p-8'>

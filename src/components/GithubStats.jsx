@@ -8,7 +8,7 @@ function GithubStats() {
 
   return (
 
-    <section className="pb-20">
+    <section className="pb-10">
 
       {/* Heading */}
       <motion.h2
@@ -16,7 +16,7 @@ function GithubStats() {
         initial={{ opacity: 0, y: 100 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="my-20 bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-center text-4xl font-bold tracking-wider text-transparent"
+        className="my-10 bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-center text-4xl font-bold tracking-wider text-transparent"
       >
         GitHub Activity
       </motion.h2>

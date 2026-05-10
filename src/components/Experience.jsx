@@ -9,7 +9,7 @@ function Experience() {
                 initial={{ opacity: 0, y: 100 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
-                className="my-20 bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-center text-4xl font-bold text-transparent">Experience
+                className="my-10 bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-center text-4xl font-bold text-transparent">Experience
             </motion.h2>
             <div>
                 {EXPERIENCES.map((experience, index) => (
