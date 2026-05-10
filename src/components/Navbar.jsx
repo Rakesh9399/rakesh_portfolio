@@ -3,7 +3,7 @@ import myLogo from '../assets/profile_image/logo.png';
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 function Navbar() {
     return (
-        <nav className="sticky top-0 z-50 flex items-center justify-between border-b border-stone-800/50 py-5">
+        <nav className="sticky top-0 z-50 flex items-center justify-between border-b border-stone-800/50 ">
 
             {/* Left Side */}
             <div className="flex items-center gap-3">
