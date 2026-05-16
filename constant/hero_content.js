@@ -1,6 +1,6 @@
-import project1 from "../src/assets/projects/project-1.webp";
-import project2 from "../src/assets/projects/project-2.webp";
-import project3 from "../src/assets/projects/project-3.webp";
+import project1 from "../src/assets/projects/project-1.png";
+import project2 from "../src/assets/projects/project-2.png";
+import project3 from "../src/assets/projects/project-3.png";
 import project4 from "../src/assets/projects/project-4.webp";
 
 
@@ -9,6 +9,8 @@ import project4 from "../src/assets/projects/project-4.webp";
 export const HERO_CONTENT = `Full Stack Developer specializing in MERN stack, PHP, and scalable backend systems. Passionate about building responsive web applications, REST APIs, and real-time experiences with clean and efficient code.`;
 
 export const ABOUT_TEXT = `I am a dedicated Full Stack Developer focused on the MERN stack with experience in developing modern web applications from frontend to backend. I have worked on projects including real-time chat applications, video streaming backends, AI-based interview platforms, e-commerce websites, and travel listing platforms. My expertise includes React.js, Node.js, Express.js, MongoDB, REST APIs, JWT Authentication, Socket.io, and Tailwind CSS. Along with MERN technologies, I also have experience working with PHP, Laravel, Spring Boot, and MySQL. I am passionate about writing clean code, improving application performance, and building practical solutions that provide great user experiences.`;
+
+/* export const ABOUT_TEXT = `I am a passionate Full Stack Developer focused on building scalable and user-friendly web applications using the MERN stack. I have experience developing real-time chat applications, video streaming backends, AI-based interview platforms, and travel listing systems. My expertise includes React.js, Node.js, Express.js, MongoDB, REST APIs, JWT Authentication, Socket.IO, and Tailwind CSS. I also have hands-on experience with PHP, Laravel, Spring Boot, and MySQL. I enjoy solving real-world problems, improving application performance, and writing clean, maintainable code.`; */
 
 export const EXPERIENCES = [
   {
@@ -34,7 +36,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
 
-  {
+  /* {
     title: "Real Time Chat Application",
     image: project2,
     description:
@@ -49,6 +51,27 @@ export const PROJECTS = [
     ],
     github: "https://github.com/rakesh9399/chat-app", 
     live: "",
+  }, */
+
+  {
+    title: "ChatSphere - Real Time Chat App",
+    image: project2,
+    /* description:
+      "Developed a full-stack real-time chat application using MERN Stack and Socket.IO with instant messaging, JWT authentication, online user presence, image sharing, and responsive UI. Implemented secure backend APIs and real-time WebSocket communication for seamless user interaction.", */
+    description:
+      "Developed a full-stack real-time chat application using MERN Stack and Socket.IO with instant messaging, online user presence, image sharing, and responsive UI. Implemented secure backend APIs and real-time WebSocket communication for seamless user interaction.",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Socket.IO",
+      // "JWT",
+      "Tailwind CSS",
+      // "Cloudinary"
+    ],
+    github: "https://github.com/Rakesh9399/chat-app-frontend",
+    live: "https://chat-app-frontend-six-gules.vercel.app/",
   },
 
   {
@@ -64,7 +87,7 @@ export const PROJECTS = [
       "Cloudinary",
       "REST API"
     ],
-    github: "https://github.com/rakesh9399/video-streaming-backend", 
+    github: "https://github.com/rakesh9399/video-streaming-backend",
     live: "",
   },
 

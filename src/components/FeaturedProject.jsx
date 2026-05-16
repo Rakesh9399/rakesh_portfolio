@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 // import projectImage from "../assets/projects/project1.png";
-import projectImage from "../assets/projects/project-1.webp";
+import projectImage from "../assets/projects/project-1.png";
 
 import {
   FaGithub,

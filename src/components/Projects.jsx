@@ -18,10 +18,10 @@ import {
     SiExpress,
     SiMongodb,
     SiMysql,
-    SiSocketdotio,
+    SiSocketdotio ,
     SiTailwindcss,
     SiJavascript,
-    SiRedux,
+    SiRedux, 
 } from "react-icons/si";
 
 const techIcons = {
@@ -44,6 +44,8 @@ const techIcons = {
     "Cloudinary": <FaCloud className="text-blue-300" />,
 
     "Redux": <SiRedux className="text-purple-400" />,
+
+    "Socket.IO": <SiSocketdotio className="text-white" />,
 
 };
 
