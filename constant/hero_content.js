@@ -31,6 +31,12 @@ export const EXPERIENCES = [
       "WordPress",
       "Wix Studio"
     ],
+    stats: [
+      "1+ Years Experience",
+      "10+ Projects",
+      "Full Stack Development",
+    ],
+    color: "#22d3ee",
   },
 ];
 
@@ -108,7 +114,7 @@ export const PROJECTS = [
     live: "",
   },
 
-  {
+  /* {
     title: "Wanderlust Travel Platform",
     image: project4,
     description:
@@ -122,7 +128,7 @@ export const PROJECTS = [
     ],
     github: "https://github.com/rakesh9399/wanderlust-travel-platform",
     live: "",
-  },
+  }, */
 
 ];
 
