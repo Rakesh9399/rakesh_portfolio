@@ -14,6 +14,7 @@ import {
     SiMongodb,
     SiMysql,
     SiTailwindcss,
+    SiWix
 } from "react-icons/si";
 
 import {
@@ -134,6 +135,10 @@ function Experience() {
 
         if (name.includes("wordpress")) {
             return <FaWordpress className="text-blue-300" />;
+        }
+
+        if (name.includes("wix")) {
+            return <SiWix className="text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.25)]" />;
         }
 
         return null;
